@@ -6,36 +6,44 @@
 
 
 /*deportivas*/
+/*para hacer un margin top del header*/
 .main{
     margin-top: 40px;
 }
 
+/*para encerrar a todos los videos y su descripcion dentro del mismo cuadro*/
 .cuerpo{
     text-align: center;
-    background-color: red;
-    width: 800px;
+    background-color: white;
+    width: 1100px;
     margin:auto;
     padding: 20px;
     border-radius: 10px;
     border: 3px solid black;
 }
 
+/*clase para que el video y su texto este alineado en fila*/
 .videos{
     display:flex;
     align-items: flex-start; 
     margin-bottom: 20px;
 }
 
+/*espacio entre video y texto*/
 .videos video{
     margin-right: 20px;
 }
 
+/*parametros del texto del video*/
 .descripcion{
     text-align: left;
     display:flex;
+    align-items: flex-start ;
     flex-direction: column;
     margin-top: 50px;
 }
+/*se uso news-title y news-text para el parrafo y el h1*/
+
 /* inicio*/
 
 /* Definición de fuentes personalizadas */
@@ -343,3 +351,12 @@ footer {
             line-height: 1.6;
             font-size: 1em;
         }
+
+/*internacional*/
+
+.news-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
