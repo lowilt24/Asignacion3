@@ -189,12 +189,6 @@ section {
     position: relative;
 }
 
-.news-image::before {
-    content: "📰";
-    font-size: 3em;
-    opacity: 0.3;
-    position: absolute;
-}
 
 /* Contenido de cada noticia */
 .news-content {
